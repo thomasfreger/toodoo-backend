@@ -23,7 +23,6 @@ public class TagService {
 
         return tag;
     }
-
     public Tag createTag(String tagTitle) {
         Tag tag = tagRepository.insert(new Tag(tagTitle));
 
